@@ -1,0 +1,135 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  .container {
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+  /* Header */
+  header {
+    background: #333; /* رنگ پس‌زمینه */
+    color: #fff; /* رنگ متن */
+    padding: 10px 0; /* فضای داخلی بالا و پایین */
+    display: flex; /* فعال‌سازی فلکس‌باکس */
+    justify-content: center; /* عناصر داخلی را به مرکز افقی منتقل کن */
+    align-items: center; /* عناصر داخلی را به مرکز عمودی منتقل کن */
+  }
+  
+  header .logo {
+    margin-right: 20px; /* فاصله‌ای میان لوگو و منو */
+  }
+  
+  header nav ul {
+    list-style: none; /* حذف نقطه‌چین‌ها */
+    padding: 0;
+    display: flex; /* قرار دادن آیتم‌های منو در یک خط */
+    gap: 15px; /* فاصله بین آیتم‌ها */
+  }
+  
+  header nav ul li a {
+    color: #fff; /* رنگ لینک‌ها */
+    text-decoration: none; /* حذف خط زیر لینک‌ها */
+    transition: color 0.3s; /* افکت تغییر رنگ */
+  }
+  
+  header nav ul li a:hover {
+    color: #ddd; /* رنگ لینک‌ها هنگام هاور */
+  }
+  
+  /* Hero Section */
+  .hero {
+    background: #f4f4f4;
+    text-align: center;
+    padding: 50px 0;
+  }
+  
+  .hero h2 {
+    margin: 0 0 20px;
+  }
+  
+  .hero .btn {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+  }
+  
+  .hero .btn:hover {
+    background: #555;
+  }
+  
+  /* Services Section */
+  #services {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .service {
+    flex: 1;
+    margin: 10px;
+  }
+  
+  /* Testimonials */
+  #testimonials {
+    background: #f9f9f9;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  .testimonials-container blockquote {
+    font-style: italic;
+    margin: 10px auto;
+  }
+  
+  /* Contact Section */
+  #contact {
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  #contact form {
+    display: inline-block;
+    text-align: left;
+  }
+  
+  #contact input, #contact textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  #contact button {
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  #contact button:hover {
+    background: #555;
+  }
+  
+  /* Footer */
+  footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
